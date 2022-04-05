@@ -1,7 +1,7 @@
 # Miras Suleymen
 
 ## Contacts
-* Discord: @beatingtheaverages
+* Telegram: @beatingtheaverages
 
 ## About Me
 I learn Front-End Development in RSSchool!
