@@ -27,4 +27,3 @@ function multiply(a, b){
 
 ## English
 * A2(Keep learning…)
-
