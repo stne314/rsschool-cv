@@ -12,6 +12,7 @@ I learn Front-End Development in RSSchool!
 * JavaScript (Basic)
 * Git, GitHub
 * Figma
+* Adobe After Effects
 
 ## Code Example
 ```
