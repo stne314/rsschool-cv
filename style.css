@@ -1,1 +1,48 @@
-margin: 20px
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header {
+	border: 1px dashed red;
+}
+.header-wrapper {
+}
+.nav {
+}
+.list {
+}
+.item {
+}
+
+.main {
+	border: 1px dashed green;
+}
+
+.footer {
+	display: block;
+	border: 1px dashed blue;
+	padding: 10px;
+	background-color: #8d928e;
+	font: 20px Arial, sans-serif;
+}
+
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	align-items: center;
+}
+
+.rss-logo {
+	background-size: contain;
+	width: 141px;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-image: url("./assets/svg/rs_school_js.svg");
+}
