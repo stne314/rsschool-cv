@@ -12,6 +12,10 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: #cecece;
 }
 
 .wrapper {
@@ -22,11 +26,9 @@ body {
 
 .header {
 	border: 5px dashed red;
-	background-color: #8d928e;
+	background-color: #ffd541;
 }
 
-.nav {
-}
 .list {
 	display: flex;
 	justify-content: flex-end;
@@ -40,41 +42,64 @@ body {
 	font-size: 21px;
 	font-weight: 400;
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	transition: 0.5s;
 }
 
 .nav-link:hover {
-	color: #b0eeb5;
+	color: #000;
 	text-decoration: underline;
 }
 
 .main {
 	border: 5px dashed green;
 }
-.main-wrapper{
+.main-wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
-.profile{
+section {
+	width: 50%;
+}
+.wrapper-border {
+	border: 3px solid #ffd541;
+}
+.profile {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	padding: 50px 30px 35px;
 	border-bottom: 5px solid #d7d1c9;
 }
-.profile-logo{
+.profile-logo {
 	width: 220px;
 	height: 220px;
 	object-fit: cover;
 	border-radius: 50%;
 }
 
+.section-title {
+	margin-bottom: 10px;
+	color: #ffd541;
+	letter-spacing: 3px;
+}
+.section-list {
+	margin: 0;
+	padding: 0;
+	list-style: square inside;
+}
+.link {
+	text-decoration: none;
+	transition: 0.5s;
+	color: #000;
+}
+.link:hover {
+	color: #6822eb;
+}
 .footer {
 	border: 5px dashed blue;
 	padding: 10px;
-	background-color: #8d928e;
+	background-color: #ffd541;
 	font: 20px Arial, sans-serif;
 }
 
@@ -91,4 +116,10 @@ body {
 	height: 45px;
 	background-repeat: no-repeat;
 	background-image: url("./assets/svg/rs_school_js.svg");
+}
+
+@media (max-width: 768px) {
+	section {
+		width: 100%;
+	}
 }
