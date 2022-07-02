@@ -1,7 +1,8 @@
 # Miras Suleymen
 
 ## Contacts
-* Telegram: @beatingtheaverages
+* Telegram: [@AfishaRSSchool](https://t.me/AfishaRSSchool)
+* Discord: (https://discord.com/invite/zUr7wWYPXE)
 
 ## About Me
 I learn Front-End Development in RSSchool!
